@@ -225,7 +225,6 @@ const PRELOADED_EXPIRY_REQUIRED = ["250.003", "250.006", "305.001", "305.002", "
     </div>
     <div class="btn-row">
       <button id="exportBtn" class="btn btn-ghost">⬇ Export Excel</button>
-      <button id="shareBtn" class="btn btn-ghost">↗ Share / Drive</button>
       <button id="clearBtn" class="btn btn-danger">🗑 Clear all</button>
     </div>
 
@@ -733,7 +732,6 @@ const PRELOADED_EXPIRY_REQUIRED = ["250.003", "250.006", "305.001", "305.002", "
   finishBoxBtn.addEventListener("click",finishBox);
   backBtn.addEventListener("click",()=>{currentBox=null;setMode("BOX");});
   exportBtn.addEventListener("click",exportXLSX);
-  shareBtn.addEventListener("click",shareXLSX);
   clearBtn.addEventListener("click",clearAll);
 
   const skuFile=document.getElementById("skuFile");
